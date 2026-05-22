@@ -7,7 +7,7 @@
 #  TELEGRAM SETTINGS  ← Sirf yahi chahiye
 # ----------------------------------------------------------------
 TELEGRAM_BOT_TOKEN = "8975592206:AAHd4vG3wAHuugpsXjhV7giiyY718X_0tlc"
-# Example: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+# Example: "7412345678:AAFxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 # Kaise banao: Telegram pe @BotFather -> /newbot
 
 TELEGRAM_CHAT_ID   = "1442051354"
@@ -17,7 +17,7 @@ TELEGRAM_CHAT_ID   = "1442051354"
 # ----------------------------------------------------------------
 #  TRADING PAIR
 # ----------------------------------------------------------------
-SYMBOL             = "BTC/USDT"
+SYMBOL             = "BTC/USDT:USDT"
 TIMEFRAME          = "15m"
 EXCHANGE           = "binance"
 
