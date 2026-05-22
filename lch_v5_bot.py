@@ -72,7 +72,7 @@ def alert(subject: str, body: str) -> None:
 #  DATA FETCH
 # ================================================================
 
-exchange = ccxt.binance({"enableRateLimit": True})
+exchange = ccxt.okx({"enableRateLimit": True})
 
 def fetch_ohlcv(symbol: str, timeframe: str, limit: int = 300) -> pd.DataFrame:
     """Fetch OHLCV from Binance, return DataFrame."""
